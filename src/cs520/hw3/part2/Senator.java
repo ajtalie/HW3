@@ -12,7 +12,7 @@ public class Senator {
 	
 	//	b. A single constructor with name as its argument.
 
-	public Senator(String senatorName, String senatorParty, String senatorState, int yearsInOffice) {
+	public Senator(String senatorName, int yearsInOffice, String senatorParty, String senatorState) {
 		this.senatorName = senatorName;
 		this.senatorParty = senatorParty;
 		this.senatorState = senatorState;
@@ -51,8 +51,8 @@ public class Senator {
 //		the senator for <yearsInOffice> years”.
 		@Override
 		public String toString() {
-			return "Senator [senatorName=" + senatorName + ", senatorParty=" + senatorParty + ", senatorState="
-					+ senatorState + ", yearsInOffice=" + yearsInOffice + "]";
+			return "Senator " + senatorName + " (" + senatorParty + ") from "
+					+ senatorState + " has been the senator for " + yearsInOffice + " years.";
 		}		
 	
 }

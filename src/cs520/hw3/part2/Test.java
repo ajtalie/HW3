@@ -13,7 +13,7 @@ public class Test {
 //		The program should work for any number of input lines. Invoke the
 //		processInputData method for each line read.
 
-		//		c. Write a private method processInputData which processes its string
+//		c. Write a private method processInputData which processes its string
 //		input argument as follows.
 //		1. Tokenize the string argument using the StringTokenizer class
 //		using the comma as the delimiter.
