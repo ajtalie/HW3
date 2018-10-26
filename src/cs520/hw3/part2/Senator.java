@@ -20,31 +20,32 @@ public class Senator {
 	}
 
 	//	c. The public get and set methods for the instance variables.
-		public void setSenatorName(String x) {
-			senatorName = x;
-		}
-		public void setSenatorParty(String y) {
-			senatorParty = y;	
-		}
-		public void setSenatorState(String z) {
-			senatorState = z;	
-		}		
-		public void setSenatorName(int value) {
-				yearsInOffice = value;
-		}
-		
-		public String getSenatorName() {
-			return senatorName;
-		}
-		public String setSenatorParty() {
-			return senatorParty;	
-		}
-		public String setSenatorState() {
-			return senatorState;	
-		}		
-		public int setSenatorName() {
-				return yearsInOffice;
-		}
+	// Setters for the method	
+	public void setSenatorName(String name) {
+		senatorName = name;
+	}
+	public void setSenatorParty(String party) {
+		senatorParty = party;	
+	}
+	public void setSenatorState(String state) {
+		senatorState = state;	
+	}		
+	public void setYearsInOffice(int value) {
+		yearsInOffice = value;
+	}
+	// Setters for the method	
+	public String getSenatorName() {
+		return senatorName;
+	}
+	public String setSenatorParty() {
+		return senatorParty;	
+	}
+	public String setSenatorState() {
+		return senatorState;	
+	}		
+	public int setSenatorYearsInOffice() {
+		return yearsInOffice;
+	}
 
 //		d. Override the toString method to return the string representation of this
 //		object in the format “<name> (<party>) from <state> has been
